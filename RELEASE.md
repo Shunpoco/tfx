@@ -1,10 +1,6 @@
 # Current Version (Still in Development)
 
 ## Major Features and Improvements
-*   Publically released TFX docker image in tensorflow/tfx will use GPU
-    compatible based TensorFlow images from [Deep Learning Containers](
-    https://cloud.google.com/ai-platform/deep-learning-containers). This allow
-    these images to be used with GPU out of box.
 
 *  Added an example pipeline for a ranking model (using
    [tensorflow_ranking](https://github.com/tensorflow/ranking))
@@ -173,7 +169,6 @@
     "ml-pipelines-sdk" pip package. This package does not include first-party
     TFX components. The "tfx" pip package is still the recommended installation
     path for TFX.
-*   Migrated LocalDagRunner to the new [IR](https://github.com/tensorflow/tfx/blob/master/tfx/proto/orchestration/pipeline.proto) stack.
 
 ## Breaking changes
 
